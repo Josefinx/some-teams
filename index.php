@@ -9,7 +9,7 @@ require __DIR__ . '/data.php';
         ?>
             <div class="grid-item">
                 <h1><?= $key; ?></h1>
-                <img src="<?= $value['logo']; ?>" alt="logo">
+                <img class="logo" src="<?= $value['logo']; ?>" alt="logo">
                 <p><?= $value['city']; ?></p>
                 <p><?= $value['league']; ?></p>
                 <p><?= $value['uefa-coefficient-ranking']; ?></p>
