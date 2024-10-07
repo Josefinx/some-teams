@@ -10,7 +10,8 @@
 
 <body>
     <header>
+        <a href="/index.php"><img src="/assets/logo_yellow.svg" alt=""></a>
         <nav>
-
+            <a href="/about.php">Om</a>
         </nav>
     </header>
