@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <a href="/index.php"><img class="start" src="/assets/logo_yellow.svg" alt=""></a>
+        <a href="/index.php"><img class="start" src="/assets/logo_light_blue.svg" alt=""></a>
         <nav>
             <a class="about" href="/about.php">Om</a>
         </nav>
