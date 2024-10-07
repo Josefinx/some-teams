@@ -1,6 +1,18 @@
 
 <?php
 
+function removeBackslashes(array $teams)
+{
+    foreach ($teams as $key => $value) {
+        if (is_array($value)) {
+            $teams[$key] = removeBackslashes($value);
+        } else {
+            $teams[$key] = stripslashes($value);
+        }
+    }
+    return $teams;
+}
+
 $teams = [
     'Barcelona' => [
         'league' => 'Primera División (Spain)',
@@ -131,3 +143,5 @@ $teams = [
         'group' => 'D'
     ],
 ];
+
+$teams = removeBackslashes($teams);

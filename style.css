@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    border: 1px red dashed;
+}
+
+
+
+.grid-container {
+    display: grid;
+}
